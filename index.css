@@ -1,0 +1,86 @@
+article.Apollo {
+  position: absolute; /* allows top/left to work */
+  top: 300px; /* vertical position */
+  left: 75%; /* horizontal starting point */
+  z-index: 1; /* ensures it’s above backgrounds */
+}
+
+article.Apollo img {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+article.Apollo img:hover {
+  transform: translateY(-10px); /* moves up 10px */
+}
+
+article.Balboa {
+  position: absolute; /* allows top/left to work */
+  top: 300px; /* vertical position */
+  left: 50%; /* horizontal starting point */
+  z-index: 1; /* ensures it’s above backgrounds */
+}
+
+article.Balboa img {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+article.Balboa img:hover {
+  transform: translateY(-10px); /* moves up 10px */
+}
+
+article.clubber {
+  position: absolute; /* allows top/left to work */
+  top: 300px; /* vertical position */
+  left: 25%; /* horizontal starting point */
+  z-index: 1; /* ensures it’s above backgrounds */
+}
+
+article.clubber img {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+article.clubber img:hover {
+  transform: translateY(-10px); /* moves up 10px */
+}
+
+ul {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: left;
+  text-wrap: wrap;
+  width: 500px;
+}
+
+article.ivan {
+  position: absolute; /* allows top/left to work */
+  top: 300px; /* vertical position */
+  left: 0%; /* horizontal starting point */
+  z-index: 1; /* ensures it’s above backgrounds */
+}
+
+article.ivan img {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+article.ivan img:hover {
+  transform: translateY(-10px); /* moves up 10px */
+}
+
+footer {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 22px;
+  text-align: left;
+}
+
+body {
+  background-color: rgb(233, 185, 85);
+}

@@ -1,0 +1,140 @@
+body {
+  background-color: rgb(0, 40, 104);
+  color: rgb(191, 10, 48);
+}
+
+article.Bio p {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: left;
+  text-wrap: wrap;
+  width: 500px;
+  border: 1px solid white;
+  background-color: rgb(191, 10, 48);
+  color: white;
+  border-radius: 10px;
+}
+
+article.Bio h3 {
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: left;
+  color: rgb(191, 10, 48);
+  z-index: 2;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 45px;
+  text-align: left;
+  color: white;
+}
+.BG-Flipped {
+  background-image: url("Creeda79acbae9d031f4e381ed33931886710.jpg");
+  background-size: auto 100vh;
+  background-repeat: no-repeat;
+  background-position: 1px 1px;
+  position: fixed;
+  top: 0;
+  left: 1000px;
+  width: 100vw;
+  height: 150vh;
+  z-index: -2;
+}
+
+.black-section {
+  position: fixed; /* allows precise placement */
+  top: -10px; /* distance from top of viewport */
+  left: 900px; /* distance from left of viewport */
+  width: 4300px; /* width of the black section */
+  height: 880000px; /* height of the black section */
+  background-color: black; /* the color */
+  z-index: -2; /* behind images with higher z-index */
+}
+
+.gold-section {
+  position: absolute;
+  top: 0; /* stick it to the very top */
+  left: 0; /* start from the left edge */
+  width: 100%; /* span full width */
+  height: 100px; /* adjust this to cover behind the header */
+  background-color: rgb(191, 10, 48);
+  z-index: -1; /* below text/images but above white background */
+}
+
+article.Balboa {
+  position: absolute; /* allows top/left to work */
+  top: 100px; /* vertical position */
+  left: 44.5%; /* horizontal starting point */
+  z-index: 1; /* ensures it’s above backgrounds */
+}
+
+article.Balboa img {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+article.Balboa img:hover {
+  transform: translateY(-10px); /* moves up 10px */
+}
+
+article.clubber {
+  position: absolute; /* allows top/left to work */
+  top: 400px; /* vertical position */
+  left: 44.5%; /* horizontal starting point */
+  z-index: 1; /* ensures it’s above backgrounds */
+}
+
+article.clubber img {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+article.clubber img:hover {
+  transform: translateY(-10px); /* moves up 10px */
+}
+
+article.ivan {
+  position: absolute; /* allows top/left to work */
+  top: 700px; /* vertical position */
+  left: 44.5%; /* horizontal starting point */
+  z-index: 1; /* ensures it’s above backgrounds */
+}
+
+article.ivan img {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+article.ivan img:hover {
+  transform: translateY(-10px); /* moves up 10px */
+}
+
+ul {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: left;
+  text-wrap: wrap;
+  width: 500px;
+  color: white;
+}
+
+footer {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 22px;
+  text-align: left;
+}
+
+article.Bio h2 {
+  color: white;
+}
+
+header h1 a {
+  color: inherit; /* Makes link match surrounding text */
+  text-decoration: none;
+}

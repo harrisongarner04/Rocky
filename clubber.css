@@ -1,0 +1,136 @@
+body {
+  background-color: black;
+  color: rgb(137, 207, 240);
+}
+
+article.Bio p {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: left;
+  text-wrap: wrap;
+  width: 500px;
+  border: 1px solid rgb(137, 207, 240);
+  background-color: rgb(137, 207, 240);
+  color: black;
+  border-radius: 10px;
+}
+
+article.Bio h3 {
+  font-family: sans-serif;
+  font-size: 25px;
+  text-align: left;
+  color: rgb(137, 207, 240);
+  z-index: 2;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 45px;
+  text-align: left;
+  color: black;
+}
+.BG-Flipped {
+  background-image: url("Big-Clubber-image.jpg");
+  background-size: auto 100vh;
+  background-repeat: no-repeat;
+  background-position: 1px 1px;
+  position: fixed;
+  top: 0;
+  left: 300;
+  width: 100vw;
+  height: 150vh;
+  transform: scaleX(-1);
+  z-index: -2;
+}
+
+.black-section {
+  position: fixed; /* allows precise placement */
+  top: -10px; /* distance from top of viewport */
+  left: 900px; /* distance from left of viewport */
+  width: 4300px; /* width of the black section */
+  height: 880000px; /* height of the black section */
+  background-color: black; /* the color */
+  z-index: -2; /* behind images with higher z-index */
+}
+
+.gold-section {
+  position: absolute;
+  top: 0; /* stick it to the very top */
+  left: 0; /* start from the left edge */
+  width: 100%; /* span full width */
+  height: 100px; /* adjust this to cover behind the header */
+  background-color: rgb(137, 207, 240);
+  z-index: -1; /* below text/images but above black background */
+}
+
+article.Apollo {
+  position: absolute; /* allows top/left to work */
+  top: 100px; /* vertical position */
+  left: 44.5%; /* horizontal starting point */
+  z-index: 1; /* ensures it’s above backgrounds */
+}
+
+article.Apollo img {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+article.Apollo img:hover {
+  transform: translateY(-10px); /* moves up 10px */
+}
+
+article.Balboa {
+  position: absolute; /* allows top/left to work */
+  top: 400px; /* vertical position */
+  left: 44.5%; /* horizontal starting point */
+  z-index: 1; /* ensures it’s above backgrounds */
+}
+
+article.Balboa img {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+article.Balboa img:hover {
+  transform: translateY(-10px); /* moves up 10px */
+}
+
+article.ivan {
+  position: absolute; /* allows top/left to work */
+  top: 300px; /* vertical position */
+  left: 1%; /* horizontal starting point */
+  z-index: 1; /* ensures it’s above backgrounds */
+}
+
+article.ivan img {
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+article.ivan img:hover {
+  transform: translateY(-10px); /* moves up 10px */
+}
+
+ul {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: left;
+  text-wrap: wrap;
+  width: 500px;
+}
+
+footer {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 22px;
+  text-align: left;
+}
+
+header h1 a {
+  color: inherit; /* Makes link match surrounding text */
+  text-decoration: none;
+}
